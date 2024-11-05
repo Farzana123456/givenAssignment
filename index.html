@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .form-container {
+          max-width: 400px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #f8f9fa;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group label {
+          font-weight: bold;
+        }
+        /* Default styles for larger screens */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .container .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-4 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+   /* Responsive styles for smaller screens */
+   @media (max-width: 768px) {
+        .text-section {
+            text-align: center;
+        }
+        .image-section {
+            margin-top: 20px;
+        }
+        .row {
+            flex-direction: column;
+        }
+    }
+    /* 1st container*/
+
+    /* Additional styling for very small screens */
+    @media (max-width: 576px) {
+        .text-section h3 {
+            font-size: 1.5rem;
+        }
+        .text-section p, .text-section button {
+            font-size: 1rem;
+        }
+    }
+    /*my skill*/
+    @media (max-width: 768px) {
+        .text-center p, .text-center h2 {
+            font-size: 1.2rem;
+        }
+    }
+    /*baki kaj*/
+    @media (max-width: 768px) {
+        .container .row {
+            text-align: center;
+        }
+
+        .container .row img {
+            max-width: 80%;
+            margin: auto;
+        }
+    }/* client secftion*/
+    @media (max-width: 768px) {
+        .container .row {
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 60%;
+            margin: auto;
+        }
+
+        .card p {
+            padding: 0 10px;
+        }
+    }/*form section*/
+    @media (max-width: 768px) {
+        .form-container {
+            padding: 20px;
+        }
+    }
+      </style>
+</head>
+<body>
+    <!--header section-->
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col-4">
+<img src="./Frame.png" alt="">
+            </div>
+            <div class="col-4">
+<ul class="navbar">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+<li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+</ul>
+            </div>
+            <div class="col-4">
+<button class="btn " >Contact me</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background-color: rgb(233, 243, 247);">
+        <div class="row">
+            <div class="col-6 pt-5">
+<p>Hay,I am John</p>
+<h3>I create</h3><h3 style="color: blue;">product design</h3>
+<h3>and brand experience</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio laudantium autem rerum quasi quam. Magnam consequuntur repudiandae rem eos culpa? Veritatis qui impedit explicabo. Sunt ipsam consequuntur reiciendis recusandae.
+
+</p>
+<button class="btn btn-primary">Get in Touch</button>
+            </div>
+            <div class="col-6">
+                <img class="col-12" src="Group 11 1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <p>My Skills</p>
+          <h2>My Expertise</h2>
+          <div class="col-3">
+<div class="card" style="background-color: rgb(233, 243, 247);">
+<img  src="./Strategy & Direction.png" alt="">
+<h4>Strategy & Direction</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae nam rem iusto veniam aut doloremque, tenetur nesciunt cumque officia nulla maiores? Fuga est architecto aliquam sapiente perspiciatis dolorum eveniet.</p>
+</div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="background-color: rgb(233, 243, 247);">
+<img src="Branding & Logo (1).png" alt="">
+<h5>Branding & Logo</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique dolor recusandae nisi eveniet ducimus blanditiis? Reprehenderit sunt hic temporibus, quo odit et soluta, voluptas consequatur asperiores mollitia.</p>
+</div>
+          </div>
+          <div class="col-3">
+            <div class="card"  style="background-color: rgb(233, 243, 247);">
+<img src="UI & UX Design.png" alt="">
+<h5>UI & UX Design</h5>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum aut aliquid explicabo facere nesciunt repellat ducimus quasi expedita molestiae minima dicta blanditiis nemo vitae, exercitationem quod, itaque animi nostrum quis?</p>
+</div>
+          </div>
+          <div class="col-3">
+            <div class="card"  style="background-color: rgb(233, 243, 247);">
+<img src="Webflow Development (1).png" alt="">
+<h5>Webflow Development</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minima earum hic eos non quibusdam distinctio perferendis, voluptates suscipit aspernatur dolorum corporis doloribus corrupti aliquid libero fuga </p>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+<img class="col-10" src="About Me.png" alt="">
+            </div>
+            <div class="col-6">
+<p class="pt-5 mt-5">About</p>
+<h4>About Me</h4>
+<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aliquam numquam unde fuga aperiam? Possimus dicta sapiente praesentium at earum cumque qui ipsam, a doloribus unde natus. Veniam, ipsam consectetur!</p>
+            </div>
+        </div>
+    </div>
+    <!--baki 'kaj'-->
+    <div class="container">
+        <div class="row">
+            <img class="pt-3" src="./Section Header.png" alt="">
+         <img class="pb-5 pt-5" src="./Content.png" alt="">
+        </div>
+    </div>
+<div class="container pt-5" style="background-color:  rgb(233, 243, 247) ;" >
+    <div class="row">
+        <p>Clients Feedback</p>
+        <h4>Customer testtimonials</h4>
+        <div class="col-4" >
+<div class="card">
+   <img class="col-6 pt-4 pb-3" src="./Stars.png" alt="">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis voluptas consectetur fugiat itaque beatae voluptatem molestias. A itaque, ullam totam nobis excepturi laborum, molestiae voluptas quam tenetur minima rem.</p>
+   <img  src="./Avatar.png" alt=""> 
+</div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="col-6 pt-4 pb-3" src="./Stars.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis voluptas consectetur fugiat itaque beatae voluptatem molestias. A itaque, ullam totam nobis excepturi laborum, molestiae voluptas quam tenetur minima rem.</p>
+       <img src="Avatar (1).png" alt="">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="col-6 pt-4 pb-3" src="./Stars.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis voluptas consectetur fugiat itaque beatae voluptatem molestias. A itaque, ullam totam nobis excepturi laborum, molestiae voluptas quam tenetur minima rem.</p>
+        <img src="Avatar (2).png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="form-container pb-5">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          </div>
+        </div>
+  
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="options">Choose a topic</label>
+          <select id="options" class="form-control" >
+          <option value="select">Select one</option>
+          </select>
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Type your message ..."></textarea>
+        </div>
+        <div class="form-group">
+      
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="option1" value="option1">
+              <label class="form-check-label" for="option1">I accepet the terms</label>
+            </div>
+           
+          </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-4">
+<img src="./Frame.png" alt="">
+        </div>
+        <div class="col-4">
+<ul class="navbar">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+<li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+</ul></div>
+<div class="col-4">
+    <i class="fa-brands fa-facebook-f p-2"></i>
+    <i class="fa-brands fa-instagram p-2"></i>
+    <i class="fa-brands fa-twitter p-2"></i>
+    <i class="fa-brands fa-linkedin p-2"></i>
+</div>
+<img src="./Credits.png" alt="">
+</div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap.bundle.js"></script>
+</body>
+</html>
